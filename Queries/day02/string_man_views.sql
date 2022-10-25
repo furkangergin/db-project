@@ -38,15 +38,26 @@ first_name||' '||last_name as "full_name",lower(email||'@gmail.com') as "full_em
 from employees;
 
 --VIEW
-CREATE VIEW Emaillist_jamal as select substr(first_name,0,1)||'.'||substr(last_name,0,1) as "initials",
+CREATE VIEW Emaillist as select substr(first_name,0,1)||'.'||substr(last_name,0,1) as "initials",
+first_name||' '||last_name as "full_name",lower(email||'@gmail.com') as "full_email"
+from employees;
+
+--to remove view
+drop view Emaillist;
+drop view EMAILLIST_JAMAL;
+
+CREATE VIEW Emaillist_Furkan as select substr(first_name,0,1)||'.'||substr(last_name,0,1) as "initials",
 first_name||' '||last_name as "full_name",lower(email||'@gmail.com') as "full_email"
 from employees;
 
 select "full_name"
-from Emaillist;
+from EMAILLIST_FURKAN;
 
---to remove view
-drop view Emaillist_jamal;
+select * from EMAILLIST_FURKAN;
+
+
+
+
 
 
 
