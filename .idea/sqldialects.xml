@@ -4,13 +4,13 @@
     <file url="file://$PROJECT_DIR$/Queries/day01/group_by.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day01/like_agg.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day01/where.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Queries/day02/string_man_views.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Queries/day02/sub_interview.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Queries/day02/subquery_rownum.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day03/alter_table.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day03/create_table.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day03/customerandaddress.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day03/join1.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Queries/day03/join2.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Queries/string_man_views.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Queries/sub_interview.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Queries/subquery_rownum.sql" dialect="Oracle" />
   </component>
 </project>
