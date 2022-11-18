@@ -35,9 +35,6 @@ INSERT INTO ScrumTeam VALUES (4,'Michael','Scofield','PO');
 select * from SCRUMTEAM
 order by Emp_ID asc;
 
-
-
-
 --how to update data
 /*
 UPDATE table_name

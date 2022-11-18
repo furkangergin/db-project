@@ -10,6 +10,7 @@ select first_name,last_name,c.address_id,address,phone
 from customer c left join address a
 on c.address_id = a.address_id;
 
+
 select first_name,last_name,c.address_id,a.address_id,address,phone
 from customer c right join address a
 on c.address_id = a.address_id;

@@ -19,3 +19,5 @@ FROM locations;
 
 select distinct first_name from employees;
 --remove duplicates
+
+select * from DEPARTMENTS;
